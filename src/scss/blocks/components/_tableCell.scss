@@ -1,0 +1,58 @@
+.table-cell-one-slot, .table-cell-two-slot, .table-cell-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 3px 0;
+    min-width: 150px;
+    height: 45px;
+    background: #ffffff;
+    border: 1px solid var(--font-color-base);
+    border-radius: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    &:nth-child(2) {
+        background: var(--background-blue);
+    }
+}
+
+.table-cell-one-slot {
+    &__first-slot {
+        position: absolute;
+        right: 15px;
+        width: 90%;
+        text-align: right;
+        overflow: auto;
+        scrollbar-width: thin;
+    }
+}
+
+.table-cell-two-slot {
+    &__first-slot {
+        position: absolute;
+        right: 70px;
+        width: 70px;
+        max-width: 70px;
+        text-align: right;
+        overflow: auto;
+        scrollbar-width: thin;
+    }
+    &__second-slot {
+        position: absolute;
+        right: 15px;
+        width: 50px;
+        max-width: 50px;
+        text-align: right;
+        overflow: auto;
+        transition: 0.5s all;
+        scrollbar-width: thin;
+    }
+}
+
+.table-cell-header {
+    &__first-slot {
+        width: 100%;
+        text-align: center;
+    }
+}

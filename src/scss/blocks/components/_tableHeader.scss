@@ -1,0 +1,16 @@
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    &__first-cell {
+        width: 37%;
+    }
+    &__second-cell {
+        width: 19%;
+    }
+    &__third-cell {
+        width: 19%;
+    }
+    &__fourth-cell {
+        width: 22%;
+    }
+}

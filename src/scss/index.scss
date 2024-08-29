@@ -1,0 +1,42 @@
+@import './base/normalize';
+@import './base/variables';
+
+* {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 991px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@import './blocks/components/tableHeader';
+@import './blocks/components/tableCell';
+@import './blocks/components/tableRow';
+@import './blocks/components/table';
+@import './blocks/components/labelInfo';
+@import './blocks/components/moneyTurnover';

@@ -1,0 +1,36 @@
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+        transform: scale(1.025);
+        background: var(--background-success);
+    }
+    &__first-cell {
+        width: 37%;
+    }
+    &__second-cell {
+        width: 19%;
+    }
+    &__third-cell {
+        width: 19%;
+    }
+    &__fourth-cell {
+        width: 22%;
+    }
+    &-cell {
+        &_neutral {
+            background: var(--background-gray);
+            color: var(--font-color-base);
+        }
+        &_success {
+            background: var(--background-success);
+            color: var(--font-color-success);
+        }
+        &_danger {
+            background: var(--background-danger);
+            color: var(--font-color-danger);
+        }
+    }
+}
