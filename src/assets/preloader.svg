@@ -1,0 +1,13 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<clipPath id="clip5_4">
+			<rect id="Load" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip5_4)">
+		<path id="path" d="M1.27 12.02L1.25 12C1.25 11.58 1.58 11.25 2 11.25C2.41 11.25 2.75 11.58 2.75 12L2.72 12.02L1.27 12.02ZM12.02 2.73L12 2.75C11.58 2.75 11.25 2.42 11.25 2C11.25 1.58 11.58 1.25 12 1.25L12.02 1.27L12.02 2.73Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M2 12C2 17.52 6.47 22 12 22C17.52 22 22 17.52 22 12C22 6.47 17.52 2 12 2" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path" d="M18.73 11.98L18.75 12C18.75 12.42 18.42 12.75 18 12.75C17.58 12.75 17.25 12.42 17.25 12L17.27 11.98L18.73 11.98ZM11.98 17.27L12 17.25C12.42 17.25 12.75 17.58 12.75 18C12.75 18.42 12.42 18.75 12 18.75L11.98 18.73L11.98 17.27Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M18 12C18 8.68 15.31 6 12 6C8.68 6 6 8.68 6 12C6 15.31 8.68 18 12 18" stroke="#808080" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

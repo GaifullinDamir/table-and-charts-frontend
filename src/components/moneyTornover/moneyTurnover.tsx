@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import { fetchAllMoneyTurnoverPaginated } from "../../http/moneyTurnoverApi";
 import { Table } from "../table";
+import { Prealoder } from "../preloader";
 
 const MoneyTurnover = () => {
     const {
@@ -17,7 +18,7 @@ const MoneyTurnover = () => {
 
     return (
         <div className="money-turnover">
-            {moneyTurnoverArrayIsLoading && <div className="label-info">Данные в загрузке</div>}
+            {moneyTurnoverArrayIsLoading && <Prealoder/>}
             {moneyTurnoverArrayError && <div className="label-info">Ошибка загрузки</div>}
             {!moneyTurnoverArrayIsLoading && !moneyTurnoverArrayError && moneyTurnoverArray.length && <Table data={moneyTurnoverArray}/>}
         </div>

@@ -4,6 +4,7 @@ import { TableHeader } from "./tableHeader";
 import { TableRow } from "./tableRow";
 import { TableCellOneSlot, TableCellTwoSlot, TableCellHeader } from "./tableCell";
 import { Highchart } from "./highchart";
+import { Prealoder } from "./preloader";
 
 export {
     MoneyTurnover,
@@ -15,5 +16,6 @@ export {
     TableCellOneSlot,
     TableCellTwoSlot,
     TableCellHeader,
-    Highchart
+    Highchart,
+    Prealoder
 }

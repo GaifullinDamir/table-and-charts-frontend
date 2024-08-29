@@ -4,7 +4,7 @@
     cursor: pointer;
     transition: 0.3s all;
     &:hover {
-        transform: scale(1.025);
+        transform: scale(1.015);
         background: var(--background-success);
     }
     &__first-cell {
